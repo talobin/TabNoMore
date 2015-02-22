@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/libs/armeabi-v7a.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="87eb130fdab5aea8577208728f85925f8a89dffe">
+        <dex dex="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/pre-dexed/debug/armeabi-v7a-237fc5845ac2a61bf18f73019fa0b07a2dd0bf3c.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c38a22fbea9ec48fb5713492ce6f8fcf59de8eb2">
+        <dex dex="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/pre-dexed/debug/classes-751cffdab25d0cfebe8aa1916cc732068c6f7bed.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/libs/armeabi.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1d98cd21207560b91394f96d940957412497e860">
+        <dex dex="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/pre-dexed/debug/armeabi-ca69bdee6d32565c629f0221a8db0e21de2bb7a6.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/libs/x86.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="9904d7b89a2acf02ac0446f241c301088447f15c">
+        <dex dex="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/pre-dexed/debug/x86-93a531fd9e110cfd35a459085a519c14ae27ca30.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="507be3e66b3bfcb95d68e5f18f224d17a00a3ce3">
+        <dex dex="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/pre-dexed/debug/classes-267383327a08edcfae00496570829db53595cf77.jar" />
+    </item>
+
+</items>
