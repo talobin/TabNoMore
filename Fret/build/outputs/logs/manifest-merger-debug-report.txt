@@ -23,6 +23,7 @@ ADDED from AndroidManifest.xml:8:5
 		ADDED from AndroidManifest.xml:8:22
 application
 ADDED from AndroidManifest.xml:10:5
+MERGED from com.android.support:support-v4:20.0.0:17:5
 	android:label
 		ADDED from AndroidManifest.xml:12:9
 	android:icon
@@ -57,6 +58,7 @@ uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from FuckTab:PdCore:unspecified:7:5
 MERGED from FuckTab:AndroidMidi:unspecified:7:5
+MERGED from com.android.support:support-v4:20.0.0:16:5
 	android:targetSdkVersion
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0

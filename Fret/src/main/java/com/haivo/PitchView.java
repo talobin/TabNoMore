@@ -3,7 +3,7 @@
  * http://shop.oreilly.com/product/0636920022503.do
  */
 
-package com.noisepages.nettoyeur.guitartuner;
+package com.haivo;
 
 import android.content.Context;
 import android.graphics.Canvas;
