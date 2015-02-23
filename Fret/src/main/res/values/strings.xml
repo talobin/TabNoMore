@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, GuitarTunerActivity!</string>
-    <string name="app_name">BISH WHO DO YOU LOVE!</string>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Play the right note!</string>
     <string name="FIRST_E">1st E</string>
     <string name="FIRST_F">1st F</string>
     <string name="FIRST_F_SHARP">1st F♯</string>

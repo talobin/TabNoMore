@@ -47,7 +47,7 @@ public class GuitarTunerActivity extends BaseActivity {
     private ImageView pitchImage;
     private List<PitchItem> mPitchItems;
     private PitchItem mCurrentPitch;
-    private final int NOISE_THRESHOLD = 300;
+    private final int NOISE_THRESHOLD = 200;
     private CountDownTimer mTimer;
 
     public static void launch(Activity activity) {
@@ -105,7 +105,9 @@ public class GuitarTunerActivity extends BaseActivity {
         Random rand = new Random(System.currentTimeMillis());
         final int randomInteger = rand.nextInt(PitchItem.getMaxNumber() - PitchItem.getMinNumber())
             + PitchItem.getMinNumber();
+        triggerNote(randomInteger);
         mCurrentPitch = mPitchItems.get(randomInteger);
+        //triggerNote(mCurrentPitch.getFrequency()5);
         pitchImage.setImageResource(mCurrentPitch.getImageResId());
         //triggerNote(mCurrentPitch.getFrequency());
     }
