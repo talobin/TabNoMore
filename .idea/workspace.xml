@@ -14,119 +14,17 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.haivo" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef52cc9b-ae45-42c9-87f2-01c9611ec299" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/HaiLib/unspecified/annotations.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/HaiLib/unspecified/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/HaiLib/unspecified/res/drawable/ic_icon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HaiLib/src/main/res/drawable/ic_icon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HaiLib/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/HaiLib/unspecified/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/HaiLib/unspecified/aapt/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HaiLib/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/AppConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HaiLib/src/androidTest/java/com/haivo/hailibrary/ApplicationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/activities/BaseActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/data/DataModule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fret/src/main/java/com/haivo/FretApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/HaiApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HaiLib/HaiLib.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/HaiLib.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/HaiModule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fret/src/main/java/com/haivo/LaunchActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/data/MainBus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fret/build/generated/source/r/debug/com/haivo/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fret/build/generated/source/r/debug/com/haivo/hailibrary/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/HaiLib/unspecified/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/armeabi.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/armeabi_v7a.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HaiLib/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fret/src/main/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dagger_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dagger_compiler_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/gradle.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/guava_15_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javawriter_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/local.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/otto_1_3_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/picasso_2_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HaiLib/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/retrofit_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/rxjava_android_0_18_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/rxjava_core_0_18_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HaiLib/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fret/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_20_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_20_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fret/src/main/res/values/themes.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/HaiLib/unspecified/res/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/x86.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fret/build/generated/source/r/debug/com/noisepages/nettoyeur/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fret/src/main/java/com/haivo/HaiApp.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/generated/source/buildConfig/androidTest/debug/com/noisepages/nettoyeur/test/BuildConfig.java" afterPath="$PROJECT_DIR$/Fret/build/generated/source/buildConfig/androidTest/debug/com/haivo/test/BuildConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/generated/source/buildConfig/debug/com/noisepages/nettoyeur/BuildConfig.java" afterPath="$PROJECT_DIR$/Fret/build/generated/source/buildConfig/debug/com/haivo/BuildConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/AndroidManifest.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/R.txt" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/R.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/aapt/AndroidManifest.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/classes.jar" afterPath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/classes.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/res/drawable/din5.png" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/res/drawable/din5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/res/layout/device_list.xml" afterPath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/res/layout/device_list.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/res/layout/device_name.xml" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/res/layout/device_name.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/res/values/values.xml" afterPath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/res/values/values.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/AndroidManifest.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/R.txt" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/R.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/aapt/AndroidManifest.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/classes.jar" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/classes.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/libs/armeabi-v7a.jar" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/libs/armeabi-v7a.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/libs/armeabi.jar" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/libs/armeabi.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/libs/x86.jar" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/libs/x86.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/res/drawable/icon.png" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/res/drawable/icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/res/raw/extra_abs.zip" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/res/raw/extra_abs.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/res/raw/silence.wav" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/res/raw/silence.wav" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/res/values/values.xml" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/res/values/values.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/res/xml/preferences.xml" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/res/xml/preferences.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/src/main/java/com/haivo/HaiModule.java" afterPath="$PROJECT_DIR$/Fret/src/main/java/com/haivo/FretModule.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fret/src/main/java/com/haivo/util/ResHelper.java" afterPath="$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/util/ResHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/AndroidManifest.xml" afterPath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/AndroidManifest.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/R.txt" afterPath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/R.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/aapt/AndroidManifest.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/classes.jar" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/classes.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/res/drawable/din5.png" afterPath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/res/drawable/din5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/res/layout/device_list.xml" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/res/layout/device_list.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/res/layout/device_name.xml" afterPath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/res/layout/device_name.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PdCore/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/res/values/values.xml" afterPath="$PROJECT_DIR$/Fret/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidMidi/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/AndroidMidi/build/intermediates/resources/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fret/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/Fret/build/intermediates/resources/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PdCore/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/PdCore/build/intermediates/resources/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fret/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/Fret/build/intermediates/resources/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fret/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Fret/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidMidi/AndroidMidi.iml" afterPath="$PROJECT_DIR$/AndroidMidi/AndroidMidi.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fret/Fret.iml" afterPath="$PROJECT_DIR$/Fret/Fret.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fret/src/main/java/com/haivo/GuitarTunerActivity.java" afterPath="$PROJECT_DIR$/Fret/src/main/java/com/haivo/GuitarTunerActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PdCore/PdCore.iml" afterPath="$PROJECT_DIR$/PdCore/PdCore.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fret/src/main/java/com/haivo/model/PitchItem.java" afterPath="$PROJECT_DIR$/Fret/src/main/java/com/haivo/model/PitchItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fret/build/generated/source/r/debug/com/noisepages/nettoyeur/midi/R.java" afterPath="$PROJECT_DIR$/Fret/build/generated/source/r/debug/com/noisepages/nettoyeur/midi/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fret/build/generated/source/r/debug/org/puredata/android/service/R.java" afterPath="$PROJECT_DIR$/Fret/build/generated/source/r/debug/org/puredata/android/service/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fret/build.gradle" afterPath="$PROJECT_DIR$/Fret/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fret/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Fret/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fret/build/generated/source/r/debug/com/haivo/R.java" afterPath="$PROJECT_DIR$/Fret/build/generated/source/r/debug/com/haivo/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fret/src/main/res/layout/main.xml" afterPath="$PROJECT_DIR$/Fret/src/main/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gradle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -149,14 +47,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GuitarTunerActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GuitarTunerActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fret/src/main/java/com/haivo/GuitarTunerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8741259" vertical-offset="315" max-vertical-offset="3375">
-              <caret line="46" column="70" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
+            <state vertical-scroll-proportion="-6.8846154" vertical-offset="1471" max-vertical-offset="4110">
+              <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
+                <element signature="e#5139#5593#0" expanded="true" />
+                <element signature="e#5582#5583#0" expanded="true" />
+                <element signature="e#6360#6738#0" expanded="true" />
+                <element signature="e#6727#6728#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountDownTimer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-21/android/os/CountDownTimer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="2085">
+              <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PdBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PdCore/jni/libpd/java/org/puredata/core/PdBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3637" max-vertical-offset="8700">
+              <caret line="271" column="41" selection-start-line="271" selection-start-column="41" selection-end-line="271" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FretModule.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fret/src/main/java/com/haivo/FretModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="570">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PdService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PdCore/src/org/puredata/android/service/PdService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3426" max-vertical-offset="3855">
+              <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fret/src/main/res/layout/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.18656716" vertical-offset="225" max-vertical-offset="990">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PitchItem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fret/src/main/java/com/haivo/model/PitchItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1170">
+              <caret line="79" column="15" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2511#2512#0" expanded="true" />
+                <element signature="e#2554#2555#0" expanded="true" />
+                <element signature="e#2594#2595#0" expanded="true" />
+                <element signature="e#2619#2620#0" expanded="true" />
+                <element signature="e#2659#2660#0" expanded="true" />
+                <element signature="e#2683#2684#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2823,7 +2801,6 @@
         <option value="$PROJECT_DIR$/Fret/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/Fret/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/Fret/build/generated/source/r/debug/com/haivo/R.java" />
-        <option value="$PROJECT_DIR$/Fret/src/main/java/com/haivo/model/PitchItem.java" />
         <option value="$PROJECT_DIR$/Fret/src/main/java/com/haivo/HaiLib.java" />
         <option value="$PROJECT_DIR$/Fret/src/main/java/com/haivo/util/ResHelper.java" />
         <option value="$PROJECT_DIR$/Fret/src/main/java/com/haivo/DataModule.java" />
@@ -2850,7 +2827,9 @@
         <option value="$PROJECT_DIR$/Fret/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Fret/src/main/java/com/haivo/FretModule.java" />
         <option value="$PROJECT_DIR$/Fret/src/main/java/com/haivo/FretApp.java" />
+        <option value="$PROJECT_DIR$/Fret/src/main/java/com/haivo/model/PitchItem.java" />
         <option value="$PROJECT_DIR$/Fret/src/main/java/com/haivo/GuitarTunerActivity.java" />
+        <option value="$PROJECT_DIR$/Fret/src/main/res/layout/main.xml" />
       </list>
     </option>
   </component>
@@ -3076,6 +3055,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TabNoMore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TabNoMore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fret" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3469,6 +3474,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39895013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3478,7 +3484,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40026248" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40026248" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3516,78 +3522,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Fret/src/main/java/com/haivo/GuitarTunerActivity.java</url>
-          <line>82</line>
+          <line>148</line>
           <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/HaiApplication.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/HaiApplication.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/HaiLib.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/HaiLib.java</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/HaiApplication.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Fret/src/main/java/com/haivo/FretApp.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/HaiApplication.java</url>
-          <line>66</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/HaiApplication.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/activities/BaseActivity.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Fret/src/main/java/com/haivo/FretModule.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Fret/src/main/java/com/haivo/FretModule.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -3679,65 +3619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PdCore/src/org/puredata/android/service/PdService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4347826" vertical-offset="0" max-vertical-offset="3855">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fret/src/main/java/com/haivo/model/PitchItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="573" max-vertical-offset="1215">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#166#182#0" expanded="true" />
-            <element signature="e#217#233#0" expanded="true" />
-            <element signature="e#274#296#0" expanded="true" />
-            <element signature="e#331#347#0" expanded="true" />
-            <element signature="e#388#410#0" expanded="true" />
-            <element signature="e#445#461#0" expanded="true" />
-            <element signature="e#502#524#0" expanded="true" />
-            <element signature="e#559#575#0" expanded="true" />
-            <element signature="e#610#626#0" expanded="true" />
-            <element signature="e#667#689#0" expanded="true" />
-            <element signature="e#724#740#0" expanded="true" />
-            <element signature="e#781#803#0" expanded="true" />
-            <element signature="e#839#856#0" expanded="true" />
-            <element signature="e#892#909#0" expanded="true" />
-            <element signature="e#951#974#0" expanded="true" />
-            <element signature="e#1010#1027#0" expanded="true" />
-            <element signature="e#1069#1092#0" expanded="true" />
-            <element signature="e#1128#1145#0" expanded="true" />
-            <element signature="e#1187#1210#0" expanded="true" />
-            <element signature="e#1246#1263#0" expanded="true" />
-            <element signature="e#1299#1316#0" expanded="true" />
-            <element signature="e#1358#1381#0" expanded="true" />
-            <element signature="e#1417#1434#0" expanded="true" />
-            <element signature="e#1476#1499#0" expanded="true" />
-            <element signature="e#1534#1550#0" expanded="true" />
-            <element signature="e#1585#1601#0" expanded="true" />
-            <element signature="e#1642#1664#0" expanded="true" />
-            <element signature="e#1699#1715#0" expanded="true" />
-            <element signature="e#1756#1778#0" expanded="true" />
-            <element signature="e#2131#2132#0" expanded="true" />
-            <element signature="e#2160#2161#0" expanded="true" />
-            <element signature="e#2202#2203#0" expanded="true" />
-            <element signature="e#2237#2238#0" expanded="true" />
-            <element signature="e#2270#2271#0" expanded="true" />
-            <element signature="e#2303#2304#0" expanded="true" />
-            <element signature="e#2352#2353#0" expanded="true" />
-            <element signature="e#2397#2398#0" expanded="true" />
-            <element signature="e#2431#2432#0" expanded="true" />
-            <element signature="e#2465#2466#0" expanded="true" />
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#2555#2556#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/data/MainBus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65217394" vertical-offset="0" max-vertical-offset="483">
@@ -3797,48 +3678,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/activities/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6293706" vertical-offset="75" max-vertical-offset="900">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/util/ResHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36829838" vertical-offset="487" max-vertical-offset="1695">
           <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/HaiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37296036" vertical-offset="710" max-vertical-offset="1140">
-          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/HaiLib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48951048" vertical-offset="0" max-vertical-offset="429">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3871,35 +3716,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fret/src/main/java/com/haivo/FretModule.java">
+    <entry file="file://$PROJECT_DIR$/Fret/src/main/java/com/haivo/model/PitchItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6853147" vertical-offset="81" max-vertical-offset="510">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1170">
+          <caret line="79" column="15" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2511#2512#0" expanded="true" />
+            <element signature="e#2554#2555#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+            <element signature="e#2619#2620#0" expanded="true" />
+            <element signature="e#2659#2660#0" expanded="true" />
+            <element signature="e#2683#2684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PdCore/src/org/puredata/android/service/PdService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3426" max-vertical-offset="3855">
+          <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/HaiLib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fret/src/main/java/com/haivo/FretApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="570">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.27906978" vertical-offset="135" max-vertical-offset="600">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/HaiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6511628" vertical-offset="680" max-vertical-offset="1110">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fret/src/main/java/com/haivo/FretModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="570">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HaiLib/src/main/java/com/haivo/hailibrary/activities/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="900">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PdCore/src/org/puredata/android/io/AudioParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33173078" vertical-offset="657" max-vertical-offset="4050">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-21/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.5710955" vertical-offset="817" max-vertical-offset="3660">
+          <caret line="143" column="13" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PdCore/jni/libpd/java/org/puredata/core/utils/PdDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7762237" vertical-offset="1596" max-vertical-offset="2025">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PdCore/jni/libpd/java/org/puredata/core/PdBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3637" max-vertical-offset="8700">
+          <caret line="271" column="41" selection-start-line="271" selection-start-column="41" selection-end-line="271" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/platforms/android-21/data/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33173078" vertical-offset="1842" max-vertical-offset="113280">
+          <caret line="132" column="38" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-21/android/os/CountDownTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="2085">
+          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fret/src/main/java/com/haivo/GuitarTunerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8741259" vertical-offset="315" max-vertical-offset="3375">
-          <caret line="46" column="70" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
+        <state vertical-scroll-proportion="-6.8846154" vertical-offset="1471" max-vertical-offset="4110">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#5139#5593#0" expanded="true" />
+            <element signature="e#5582#5583#0" expanded="true" />
+            <element signature="e#6360#6738#0" expanded="true" />
+            <element signature="e#6727#6728#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fret/src/main/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18656716" vertical-offset="225" max-vertical-offset="990">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

@@ -55,14 +55,16 @@ public final class R {
         public static final int n66=0x7f02001e;
         public static final int n67=0x7f02001f;
         public static final int n68=0x7f020020;
-        public static final int nux_image=0x7f020021;
+        public static final int no=0x7f020021;
+        public static final int nux_image=0x7f020022;
+        public static final int yes=0x7f020023;
     }
     public static final class id {
-        public static final int Image_pitch_image=0x7f0a0003;
+        public static final int Image_pitch_image=0x7f0a0002;
+        public static final int TextView_score=0x7f0a0005;
         public static final int paired_devices=0x7f0a0001;
-        public static final int pitch_label=0x7f0a0004;
-        public static final int pitch_note=0x7f0a0005;
-        public static final int titleView=0x7f0a0002;
+        public static final int pitch_label=0x7f0a0003;
+        public static final int pitch_note=0x7f0a0004;
         public static final int title_paired_devices=0x7f0a0000;
     }
     public static final class layout {

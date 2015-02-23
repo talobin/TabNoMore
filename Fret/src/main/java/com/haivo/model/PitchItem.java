@@ -42,7 +42,6 @@ public enum PitchItem {
     public int mFrequency;
     public int mImageResId;
 
-
     PitchItem(int titleResId, int drawableIconResId, int frequency) {
         mTitle = ResHelper.getStringByResId(titleResId);
         this.mFrequency = frequency;
@@ -71,5 +70,13 @@ public enum PitchItem {
 
     public void setFrequency(int frequency) {
         this.mFrequency = frequency;
+    }
+
+    public static int getMaxNumber() {
+        return 28;
+    }
+
+    public static int getMinNumber() {
+        return 0;
     }
 }

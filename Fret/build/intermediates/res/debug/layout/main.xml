@@ -6,20 +6,11 @@
     android:orientation="vertical">
 
 
-    <TextView
-        android:id="@+id/titleView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_span="3"
-        android:padding="20px"
-        android:text="Hello bish!"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-
     <ImageView
         android:id="@+id/Image_pitch_image"
         android:layout_width="wrap_content"
-        android:layout_height="200dip"
+        android:layout_height="400dip"
+        android:layout_gravity="center_horizontal"
         android:adjustViewBounds="true"
         android:background="@drawable/nux_image"
         android:scaleType="centerCrop" />
@@ -32,8 +23,9 @@
         android:layout_span="3"
         android:gravity="center"
         android:padding="20px"
+        android:text="0.0"
         android:textColor="@android:color/black"
-        android:text="0.0" />
+        android:visibility="invisible" />
 
     <TextView
         android:id="@+id/pitch_note"
@@ -42,8 +34,28 @@
         android:layout_span="3"
         android:gravity="center"
         android:padding="20px"
+        android:text="0.0"
         android:textColor="@android:color/black"
-        android:text="0.0" />
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/yes"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/TextView_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="40dp" />
+    </LinearLayout>
 
 
 </LinearLayout><!-- From: file:/Users/hvo/Documents/Mine/TabNoMore/Fret/src/main/res/layout/main.xml -->

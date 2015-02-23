@@ -5,13 +5,16 @@
 
 package com.haivo;
 
+import android.os.CountDownTimer;
 import com.haivo.model.PitchItem;
 import com.haivo.hailibrary.activities.BaseActivity;
 import java.io.File;
 import java.io.IOException;
 
+import java.sql.Time;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 import org.puredata.android.io.AudioParameters;
 import org.puredata.android.service.PdService;
 import org.puredata.android.utils.PdUiDispatcher;
@@ -38,9 +41,14 @@ public class GuitarTunerActivity extends BaseActivity {
     private PdUiDispatcher dispatcher;
     private TextView pitchLabel;
     private TextView pitchNote;
+    private TextView mTxtScore;
+    private int mCurrentScore = 0;
     private PdService pdService = null;
     private ImageView pitchImage;
     private List<PitchItem> mPitchItems;
+    private PitchItem mCurrentPitch;
+    private final int NOISE_THRESHOLD = 300;
+    private CountDownTimer mTimer;
 
     public static void launch(Activity activity) {
         final Intent intent = new Intent(activity, GuitarTunerActivity.class);
@@ -81,6 +89,37 @@ public class GuitarTunerActivity extends BaseActivity {
         mPitchItems = Arrays.asList(arrayOfPitches);
         final PitchItem ePitch = mPitchItems.get(0);
         pitchNote.setText(whichNote(ePitch.getFrequency()));
+        randomlyGenerateNewPitch();
+        mTimer = new CountDownTimer(NOISE_THRESHOLD, 10) {
+            public void onTick(long millisUntilFinished) {
+            }
+
+            public void onFinish() {
+                randomlyGenerateNewPitch();
+                addPositivePoint();
+            }
+        };
+    }
+
+    private void randomlyGenerateNewPitch() {
+        Random rand = new Random(System.currentTimeMillis());
+        final int randomInteger = rand.nextInt(PitchItem.getMaxNumber() - PitchItem.getMinNumber())
+            + PitchItem.getMinNumber();
+        mCurrentPitch = mPitchItems.get(randomInteger);
+        pitchImage.setImageResource(mCurrentPitch.getImageResId());
+        //triggerNote(mCurrentPitch.getFrequency());
+    }
+
+    private void checkInput(int inputFrequency) {
+        mTimer.cancel();
+        if (inputFrequency == mCurrentPitch.getFrequency()) {
+            mTimer.start();
+        }
+    }
+
+    private void addPositivePoint() {
+        mCurrentScore++;
+        mTxtScore.setText(String.valueOf(mCurrentScore));
     }
 
     @Override
@@ -95,6 +134,8 @@ public class GuitarTunerActivity extends BaseActivity {
         pitchLabel = (TextView) findViewById(R.id.pitch_label);
         pitchNote = (TextView) findViewById(R.id.pitch_note);
         pitchImage = (ImageView) findViewById(R.id.Image_pitch_image);
+        mTxtScore = (TextView) findViewById(R.id.TextView_score);
+        mTxtScore.setText(String.valueOf(mCurrentScore));
         pitchLabel.setText("So quiet!");
         pitchNote.setText("Play something dude!");
         pitchImage.setBackgroundResource(R.drawable.n40);
@@ -119,6 +160,8 @@ public class GuitarTunerActivity extends BaseActivity {
                 if (!note.isEmpty()) {
                     pitchNote.setText(whichNote(x));
                 }
+                final int roundedValue = Math.round(x);
+                checkInput(roundedValue);
             }
         });
     }
