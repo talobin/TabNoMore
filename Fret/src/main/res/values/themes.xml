@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="HaiTheme" parent="android:Theme.Holo.Light">
+        <item name="android:textViewStyle">@style/Hai.TextViewStyle</item>
+        <item name="android:editTextStyle">@style/Hai.EditTextStyle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/Hai.AutoCompleteTextViewStyle</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="HaiTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+</resources>

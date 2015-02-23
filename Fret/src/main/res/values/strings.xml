@@ -3,5 +3,35 @@
 
     <string name="hello">Hello World, GuitarTunerActivity!</string>
     <string name="app_name">BISH WHO DO YOU LOVE!</string>
+    <string name="FIRST_E">1st E</string>
+    <string name="FIRST_F">1st F</string>
+    <string name="FIRST_F_SHARP">1st F♯</string>
+    <string name="FIRST_G">1st G</string>
+    <string name="FIRST_G_SHARP">1st G♯</string>
+    <string name="FIRST_A">1st A</string>
+    <string name="FIRST_A_SHARP">1st A♯</string>
+    <string name="FIRST_B">1st B</string>
+    <string name="FIRST_D_SHARP">1st D#</string>
+    <string name="SECOND_E">2nd E</string>
+    <string name="SECOND_F">2nd F</string>
+    <string name="SECOND_F_SHARP">2nd F♯</string>
+    <string name="SECOND_G">2nd G</string>
+    <string name="SECOND_G_SHARP">2nd G♯</string>
+    <string name="SECOND_A">2nd A</string>
+    <string name="SECOND_A_SHARP">2nd A♯</string>
+    <string name="SECOND_B">2nd B</string>
+    <string name="SECOND_C">2nd C</string>
+    <string name="SECOND_C_SHARP">2nd C#</string>
+    <string name="SECOND_D">2nd D</string>
+    <string name="SECOND_D_SHARP">2nd D♯</string>
+    <string name="THIRD_E">3rd E</string>
+    <string name="THIRD_F">3rd F</string>
+    <string name="THIRD_F_SHARP">3rd F♯</string>
+    <string name="THIRD_G">3rd G</string>
+    <string name="THIRD_G_SHARP">3rd G#</string>
+    <string name="FIRST_D">1st D</string>
+    <string name="FIRST_C_SHARP">1st C♯</string>
+    <string name="FIRST_C">1st C</string>
+
 
 </resources>

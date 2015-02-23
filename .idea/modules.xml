@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidMidi/AndroidMidi.iml" filepath="$PROJECT_DIR$/AndroidMidi/AndroidMidi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fret/Fret.iml" filepath="$PROJECT_DIR$/Fret/Fret.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HaiLib/HaiLib.iml" filepath="$PROJECT_DIR$/HaiLib/HaiLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PdCore/PdCore.iml" filepath="$PROJECT_DIR$/PdCore/PdCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TabNoMore.iml" filepath="$PROJECT_DIR$/TabNoMore.iml" />
+    </modules>
+  </component>
+</project>
+

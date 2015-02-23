@@ -1,2 +1,2 @@
-include  ':PdCore', ':AndroidMidi'
+include  ':PdCore', ':AndroidMidi', ':HaiLib'
 include ':Fret'

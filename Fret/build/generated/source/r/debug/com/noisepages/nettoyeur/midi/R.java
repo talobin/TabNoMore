@@ -11,24 +11,24 @@ public final class R {
 		public static final int din5 = 0x7f020000;
 	}
 	public static final class id {
-		public static final int paired_devices = 0x7f090001;
-		public static final int title_paired_devices = 0x7f090000;
+		public static final int paired_devices = 0x7f0a0001;
+		public static final int title_paired_devices = 0x7f0a0000;
 	}
 	public static final class layout {
 		public static final int device_list = 0x7f030000;
 		public static final int device_name = 0x7f030001;
 	}
 	public static final class string {
-		public static final int none_paired = 0x7f070002;
-		public static final int select_device = 0x7f07000e;
-		public static final int title_no_paired_devices = 0x7f07000f;
-		public static final int title_no_usb_devices_available = 0x7f070010;
-		public static final int title_no_usb_midi_input_available = 0x7f070011;
-		public static final int title_no_usb_midi_output_available = 0x7f070012;
-		public static final int title_paired_devices = 0x7f070013;
-		public static final int title_select_bluetooth_device = 0x7f070014;
-		public static final int title_select_usb_midi_device = 0x7f070015;
-		public static final int title_select_usb_midi_input = 0x7f070016;
-		public static final int title_select_usb_midi_output = 0x7f070017;
+		public static final int none_paired = 0x7f08001f;
+		public static final int select_device = 0x7f08002b;
+		public static final int title_no_paired_devices = 0x7f08002c;
+		public static final int title_no_usb_devices_available = 0x7f08002d;
+		public static final int title_no_usb_midi_input_available = 0x7f08002e;
+		public static final int title_no_usb_midi_output_available = 0x7f08002f;
+		public static final int title_paired_devices = 0x7f080030;
+		public static final int title_select_bluetooth_device = 0x7f080031;
+		public static final int title_select_usb_midi_device = 0x7f080032;
+		public static final int title_select_usb_midi_input = 0x7f080033;
+		public static final int title_select_usb_midi_output = 0x7f080034;
 	}
 }

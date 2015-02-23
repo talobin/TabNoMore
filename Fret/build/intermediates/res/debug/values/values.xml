@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string-array name="inchannels_labels">
 		<item>None</item>
@@ -46,14 +46,46 @@
 		<item>44100</item>
 		<item>48000</item>
 	</string-array>
-    <!-- From: file:/Users/hvo/Documents/Mine/FuckTab/Fret/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/hvo/Documents/Mine/TabNoMore/Fret/src/main/res/values/colors.xml -->
     <eat-comment/>
+    <color name="primary_text">#565656</color>
+    <!-- From: file:/Users/hvo/Documents/Mine/TabNoMore/Fret/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="FIRST_A">1st A</string>
+    <string name="FIRST_A_SHARP">1st A♯</string>
+    <string name="FIRST_B">1st B</string>
+    <string name="FIRST_C">1st C</string>
+    <string name="FIRST_C_SHARP">1st C♯</string>
+    <string name="FIRST_D">1st D</string>
+    <string name="FIRST_D_SHARP">1st D#</string>
+    <string name="FIRST_E">1st E</string>
+    <string name="FIRST_F">1st F</string>
+    <string name="FIRST_F_SHARP">1st F♯</string>
+    <string name="FIRST_G">1st G</string>
+    <string name="FIRST_G_SHARP">1st G♯</string>
+    <string name="SECOND_A">2nd A</string>
+    <string name="SECOND_A_SHARP">2nd A♯</string>
+    <string name="SECOND_B">2nd B</string>
+    <string name="SECOND_C">2nd C</string>
+    <string name="SECOND_C_SHARP">2nd C#</string>
+    <string name="SECOND_D">2nd D</string>
+    <string name="SECOND_D_SHARP">2nd D♯</string>
+    <string name="SECOND_E">2nd E</string>
+    <string name="SECOND_F">2nd F</string>
+    <string name="SECOND_F_SHARP">2nd F♯</string>
+    <string name="SECOND_G">2nd G</string>
+    <string name="SECOND_G_SHARP">2nd G♯</string>
+    <string name="THIRD_E">3rd E</string>
+    <string name="THIRD_F">3rd F</string>
+    <string name="THIRD_F_SHARP">3rd F♯</string>
+    <string name="THIRD_G">3rd G</string>
+    <string name="THIRD_G_SHARP">3rd G#</string>
     <string name="app_name">BISH WHO DO YOU LOVE!</string>
     <string name="hello">Hello World, GuitarTunerActivity!</string>
-    <!-- From: file:/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="none_paired">No paired devices</string>
-    <!-- From: file:/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="pref_key_inchannels">INPUT_CHANNELS</string>
     <string name="pref_key_outchannels">OUTPUT_CHANNELS</string>
@@ -66,7 +98,7 @@
     <string name="pref_title_inchannels">Input channels</string>
     <string name="pref_title_outchannels">Output channels</string>
     <string name="pref_title_srate">Sample rate</string>
-    <!-- From: file:/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="select_device">Select a device to connect to</string>
     <string name="title_no_paired_devices">No paired Bluetooth devices available</string>
@@ -78,9 +110,34 @@
     <string name="title_select_usb_midi_device">Select USB MIDI device</string>
     <string name="title_select_usb_midi_input">Select USB MIDI input</string>
     <string name="title_select_usb_midi_output">Select USB MIDI output</string>
-    <!-- From: file:/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="DisableSoundEffects">
         <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <!-- From: file:/Users/hvo/Documents/Mine/TabNoMore/Fret/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Hai"/>
+    <style name="Hai.AutoCompleteTextViewStyle" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+    <style name="Hai.EditTextStyle" parent="android:Widget.EditText">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+    <style name="Hai.TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+    <!-- From: file:/Users/hvo/Documents/Mine/TabNoMore/Fret/src/main/res/values/themes.xml -->
+    <eat-comment/>
+    <style name="HaiTheme" parent="android:Theme.Holo.Light">
+        <item name="android:textViewStyle">@style/Hai.TextViewStyle</item>
+        <item name="android:editTextStyle">@style/Hai.EditTextStyle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/Hai.AutoCompleteTextViewStyle</item>
+    </style>
+    <style name="Theme.Transparent" parent="HaiTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
     </style>
 </resources>

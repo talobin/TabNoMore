@@ -5,17 +5,19 @@
 
 package com.haivo;
 
+import com.haivo.model.PitchItem;
+import com.haivo.hailibrary.activities.BaseActivity;
 import java.io.File;
 import java.io.IOException;
 
+import java.util.Arrays;
+import java.util.List;
 import org.puredata.android.io.AudioParameters;
 import org.puredata.android.service.PdService;
 import org.puredata.android.utils.PdUiDispatcher;
 import org.puredata.core.PdBase;
 import org.puredata.core.PdListener;
 import org.puredata.core.utils.IoUtils;
-
-import com.noisepages.nettoyeur.R;
 
 import android.app.Activity;
 import android.content.ComponentName;
@@ -27,187 +29,198 @@ import android.os.IBinder;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 import android.util.Log;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class GuitarTunerActivity extends Activity  {
+public class GuitarTunerActivity extends BaseActivity {
 
-	private static final String TAG = "GuitarTuner";
-	private PdUiDispatcher dispatcher;
-	private TextView pitchLabel;
-	private TextView pitchNote;
-	private PdService pdService = null;
-	private ImageView pitchImage;
+    private static final String TAG = "GuitarTuner";
+    private PdUiDispatcher dispatcher;
+    private TextView pitchLabel;
+    private TextView pitchNote;
+    private PdService pdService = null;
+    private ImageView pitchImage;
+    private List<PitchItem> mPitchItems;
 
-	private final ServiceConnection pdConnection = new ServiceConnection() {
-		@Override
-		public void onServiceConnected(ComponentName name, IBinder service) {
-			pdService = ((PdService.PdBinder)service).getService();
-			try {
-				initPd();
-				loadPatch();
-			} catch (IOException e) {
-				Log.e(TAG, e.toString());
-				finish();
-			}
-		}
+    public static void launch(Activity activity) {
+        final Intent intent = new Intent(activity, GuitarTunerActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        activity.startActivity(intent);
+    }
 
-		@Override
-		public void onServiceDisconnected(ComponentName name) {
-			// this method will never be called
-		}
-	};
+    private final ServiceConnection pdConnection = new ServiceConnection() {
+        @Override
+        public void onServiceConnected(ComponentName name, IBinder service) {
+            pdService = ((PdService.PdBinder) service).getService();
+            try {
+                initPd();
+                loadPatch();
+            } catch (IOException e) {
+                Log.e(TAG, e.toString());
+                finish();
+            }
+        }
 
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		initGui();
-		initSystemServices();
-		bindService(new Intent(this, PdService.class), pdConnection, BIND_AUTO_CREATE);
-	}
+        @Override
+        public void onServiceDisconnected(ComponentName name) {
+            // this method will never be called
+        }
+    };
 
-	@Override
-	public void onDestroy() {
-		super.onDestroy();
-		unbindService(pdConnection);
-	}
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
 
-	private void initGui() {
-		setContentView(R.layout.main);
-		
-		pitchLabel = (TextView) findViewById(R.id.pitch_label);
-		pitchNote = (TextView)findViewById(R.id.pitch_note);
-		pitchImage = (ImageView)findViewById(R.id.Image_pitch_image);
-		pitchLabel.setText("So quiet!");
-		pitchNote.setText("Play something dude!");
-		pitchImage.setBackgroundResource(R.drawable.n40);
-	}
+        initGui();
+        initSystemServices();
+        bindService(new Intent(this, PdService.class), pdConnection, BIND_AUTO_CREATE);
+    }
 
-	private void  initPd() throws IOException {
-		// Configure the audio glue
-		AudioParameters.init(this);
-		int sampleRate = AudioParameters.suggestSampleRate();
-		pdService.initAudio(sampleRate, 1, 2, 10.0f);
-		start();
+    private void initData() {
+        final PitchItem[] arrayOfPitches = PitchItem.class.getEnumConstants();
+        mPitchItems = Arrays.asList(arrayOfPitches);
+        final PitchItem ePitch = mPitchItems.get(0);
+        pitchNote.setText(whichNote(ePitch.getFrequency()));
+    }
 
-		// Create and install the dispatcher
-		dispatcher = new PdUiDispatcher();
-		PdBase.setReceiver(dispatcher);
-		dispatcher.addListener("pitch", new PdListener.Adapter() {
-			@Override
-			public void receiveFloat(String source, final float x) {
-				pitchLabel.setText(String.valueOf(x));
-				final String note = whichNote(x);
-				if (!note.isEmpty()){
-				pitchNote.setText(whichNote(x));
-				}
-				
-			}
-		});
-	}
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        unbindService(pdConnection);
+    }
 
-	private void start() {
-		if (!pdService.isRunning()) {
-			Intent intent = new Intent(GuitarTunerActivity.this,
-					GuitarTunerActivity.class);
-			pdService.startAudio(intent, R.drawable.icon,
-					"GuitarTuner", "Return to GuitarTuner.");
-		}
-	}
+    private void initGui() {
+        setContentView(R.layout.main);
 
-	private void loadPatch() throws IOException {
-		File dir = getFilesDir();
-		IoUtils.extractZipResource(
-				getResources().openRawResource(R.raw.tuner), dir, true);
-		File patchFile = new File(dir, "tuner.pd");
-		PdBase.openPatch(patchFile.getAbsolutePath());
-	}
+        pitchLabel = (TextView) findViewById(R.id.pitch_label);
+        pitchNote = (TextView) findViewById(R.id.pitch_note);
+        pitchImage = (ImageView) findViewById(R.id.Image_pitch_image);
+        pitchLabel.setText("So quiet!");
+        pitchNote.setText("Play something dude!");
+        pitchImage.setBackgroundResource(R.drawable.n40);
+        initData();
+    }
 
-	private void initSystemServices() {
-		TelephonyManager telephonyManager =
-				(TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
-		telephonyManager.listen(new PhoneStateListener() {
-			@Override
-			public void onCallStateChanged(int state, String incomingNumber) {
-				if (pdService == null) return;
-				if (state == TelephonyManager.CALL_STATE_IDLE) {
-					start(); } else {
-						pdService.stopAudio(); }
-			}
-		}, PhoneStateListener.LISTEN_CALL_STATE);
-	}
+    private void initPd() throws IOException {
+        // Configure the audio glue
+        AudioParameters.init(this);
+        int sampleRate = AudioParameters.suggestSampleRate();
+        pdService.initAudio(sampleRate, 1, 2, 10.0f);
+        start();
 
-	private void triggerNote(int n) {
-		PdBase.sendFloat("midinote", n);
-		PdBase.sendBang("trigger");
-	}
+        // Create and install the dispatcher
+        dispatcher = new PdUiDispatcher();
+        PdBase.setReceiver(dispatcher);
+        dispatcher.addListener("pitch", new PdListener.Adapter() {
+            @Override
+            public void receiveFloat(String source, final float x) {
+                pitchLabel.setText(String.valueOf(x));
+                final String note = whichNote(x);
+                if (!note.isEmpty()) {
+                    pitchNote.setText(whichNote(x));
+                }
+            }
+        });
+    }
 
-	private String whichNote(float frequency){
-		final int roundedValue = Math.round(frequency);
-		switch(roundedValue){
-		case 40:
-			return "1st E";
-		case 41:
-			return "1st F";
-		case 42:
-			return "1st F♯";
-		case 43:
-			return "1st G";
-		case 44:
-			return "1st G♯";
-		case 45:
-			return "1st A";
-		case 46:
-			return "1st A♯";
-		case 47:
-			return "1st B";
-		case 48:
-			return "1st C";
-		case 49:
-			return "1st C♯";
-		case 50:
-			return "1st D";
-		case 51:
-			return "1st D#";
-		case 52:
-			return "2nd E";
-		case 53:
-			return "2nd F";
-		case 54:
-			return "2nd F♯";
-		case 55:
-			return "2nd G";
-		case 56:
-			return "2nd G♯";
-		case 57:
-			return "2nd A";
-		case 58:
-			return "2nd A♯";
-		case 59:
-			return "2nd B";
-		case 60:
-			return "2nd C";
-		case 61:
-			return "2nd C#";
-		case 62:
-			return "2nd D";
-		case 63:
-			return "2nd D♯";
-		case 64:
-			return "3rd E";
-		case 65:
-			return "3rd F";
-		case 66:
-			return "3rd F♯";
-		case 67:
-			return "3rd G";
-		case 68:
-			return "3rd G#";
-			default:
-				return "";
-		}
-	}
+    private void start() {
+        if (!pdService.isRunning()) {
+            Intent intent = new Intent(GuitarTunerActivity.this, GuitarTunerActivity.class);
+            pdService.startAudio(intent, R.drawable.icon, "GuitarTuner", "Return to GuitarTuner.");
+        }
+    }
+
+    private void loadPatch() throws IOException {
+        File dir = getFilesDir();
+        IoUtils.extractZipResource(getResources().openRawResource(R.raw.tuner), dir, true);
+        File patchFile = new File(dir, "tuner.pd");
+        PdBase.openPatch(patchFile.getAbsolutePath());
+    }
+
+    private void initSystemServices() {
+        TelephonyManager telephonyManager =
+            (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
+        telephonyManager.listen(new PhoneStateListener() {
+            @Override
+            public void onCallStateChanged(int state, String incomingNumber) {
+                if (pdService == null) return;
+                if (state == TelephonyManager.CALL_STATE_IDLE) {
+                    start();
+                } else {
+                    pdService.stopAudio();
+                }
+            }
+        }, PhoneStateListener.LISTEN_CALL_STATE);
+    }
+
+    private void triggerNote(int n) {
+        PdBase.sendFloat("midinote", n);
+        PdBase.sendBang("trigger");
+    }
+
+    private String whichNote(float frequency) {
+        final int roundedValue = Math.round(frequency);
+        switch (roundedValue) {
+            case 40:
+                return "1st E";
+            case 41:
+                return "1st F";
+            case 42:
+                return "1st F♯";
+            case 43:
+                return "1st G";
+            case 44:
+                return "1st G♯";
+            case 45:
+                return "1st A";
+            case 46:
+                return "1st A♯";
+            case 47:
+                return "1st B";
+            case 48:
+                return "1st C";
+            case 49:
+                return "1st C♯";
+            case 50:
+                return "1st D";
+            case 51:
+                return "1st D#";
+            case 52:
+                return "2nd E";
+            case 53:
+                return "2nd F";
+            case 54:
+                return "2nd F♯";
+            case 55:
+                return "2nd G";
+            case 56:
+                return "2nd G♯";
+            case 57:
+                return "2nd A";
+            case 58:
+                return "2nd A♯";
+            case 59:
+                return "2nd B";
+            case 60:
+                return "2nd C";
+            case 61:
+                return "2nd C#";
+            case 62:
+                return "2nd D";
+            case 63:
+                return "2nd D♯";
+            case 64:
+                return "3rd E";
+            case 65:
+                return "3rd F";
+            case 66:
+                return "3rd F♯";
+            case 67:
+                return "3rd G";
+            case 68:
+                return "3rd G#";
+            default:
+                return "";
+        }
+    }
 }

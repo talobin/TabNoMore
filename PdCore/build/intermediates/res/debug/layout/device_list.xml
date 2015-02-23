@@ -19,4 +19,4 @@
         android:stackFromBottom="true"
         android:layout_weight="1"
     />
-</LinearLayout><!-- From: file:/Users/hvo/Documents/Mine/FuckTab/AndroidMidi/res/layout/device_list.xml --><!-- From: file:/Users/hvo/Documents/Mine/FuckTab/PdCore/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/res/layout/device_list.xml -->
+</LinearLayout><!-- From: file:/Users/hvo/Documents/Mine/TabNoMore/AndroidMidi/res/layout/device_list.xml --><!-- From: file:/Users/hvo/Documents/Mine/TabNoMore/PdCore/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/res/layout/device_list.xml -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Hai"/>
+
+    <style name="Hai.TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="Hai.EditTextStyle" parent="android:Widget.EditText">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="Hai.AutoCompleteTextViewStyle" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+</resources>

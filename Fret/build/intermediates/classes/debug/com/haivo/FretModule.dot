@@ -1,0 +1,6 @@
+digraph G1 {
+  concentrate = true;
+  BaseActivity -> Bus;
+  BaseActivity -> Picasso;
+  Picasso -> Application;
+}

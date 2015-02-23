@@ -2,11 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/libs/armeabi-v7a.jar"
+        jar="/Users/hvo/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.4/3b646ddbdac8a33fc45b64564011da81d23e4635/picasso-2.3.4.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="87eb130fdab5aea8577208728f85925f8a89dffe">
-        <dex dex="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/pre-dexed/debug/armeabi-v7a-237fc5845ac2a61bf18f73019fa0b07a2dd0bf3c.jar" />
+        sha1="3b646ddbdac8a33fc45b64564011da81d23e4635">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/picasso-2.3.4-d25b7e3801f539e90f999fa8cd1daf78749b06a7.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ed727a8d9f247e2050281cb083f1c77b09dcb5cd">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/guava-15.0-d0405aa511f8e9077166732528257edad64f0eda.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.0/81241ff7078ef14f42ea2a8995fa09c096256e6b/javawriter-2.5.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="81241ff7078ef14f42ea2a8995fa09c096256e6b">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/javawriter-2.5.0-eae2fa1551ea28a63818d856eb11d8e1fb1eee2f.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.2/e8f912ee19ad84958510883ea191135276b091f8/dagger-1.2.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e8f912ee19ad84958510883ea191135276b091f8">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/dagger-1.2.2-6f0a7f74fd314b95b14b7ec127cd9b446b2c50bf.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a500507c50c87be3c8fe6b0ede0d9faec6324696">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/classes-97039f35a2ce9d13451c0528d91a7f4ca0c03aa6.jar" />
     </item>
     <item
         jar="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/AndroidMidi/unspecified/classes.jar"
@@ -16,11 +44,88 @@
         <dex dex="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/pre-dexed/debug/classes-751cffdab25d0cfebe8aa1916cc732068c6f7bed.jar" />
     </item>
     <item
-        jar="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/libs/armeabi.jar"
+        jar="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/classes-d95acdbea3ad3fedca4f21683b2d2d2788811b62.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/gson-2.2.4-dba7bd2ca6e6421f402fc178df4247b7adf01174.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/exploded-aar/TabNoMore/AndroidMidi/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="0f6afa7b682c64b605897b02364e9d7f5e4c4af3">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/classes-a55d9c9fef63ffc9c43daf1f24fbb61ec12e5e32.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/libs/armeabi.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="1d98cd21207560b91394f96d940957412497e860">
-        <dex dex="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/pre-dexed/debug/armeabi-ca69bdee6d32565c629f0221a8db0e21de2bb7a6.jar" />
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/armeabi-f41638b7d248aa654e9d0d8103aa4a8213d45195.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/javax.inject-1-4de30eab5fdbd27844e371d872ff9679898c0e3d.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/libs/x86.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="9904d7b89a2acf02ac0446f241c301088447f15c">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/x86-6f2272289435a2dd35fd3bb6ec78954f743d7df9.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-afd1f0cc61218161b85acec869abe5251319db54.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.6.1/efb0a36546aa8857ab8df358b106c1817e03cbee/retrofit-1.6.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="efb0a36546aa8857ab8df358b106c1817e03cbee">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/retrofit-1.6.1-82898c0ac40dedadd6c7f9f5d119dccb72d344f6.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-android/0.18.2/23ccdaad8e29a489da76d197a575068306b305fa/rxjava-android-0.18.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="23ccdaad8e29a489da76d197a575068306b305fa">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/rxjava-android-0.18.2-7491755e5c4657feff3b88269049ce0f47d570e7.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/libs/armeabi-v7a.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="87eb130fdab5aea8577208728f85925f8a89dffe">
+        <dex dex="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/pre-dexed/debug/armeabi-v7a-237fc5845ac2a61bf18f73019fa0b07a2dd0bf3c.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-core/0.18.2/2dd90aed85f9555c9ea75880947da55f7c8244a1/rxjava-core-0.18.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2dd90aed85f9555c9ea75880947da55f7c8244a1">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/rxjava-core-0.18.2-ee6c156b9a5d120b307a0166041d5d4ce33f4fea.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/exploded-aar/TabNoMore/HaiLib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="9184ba20b24431c56aa090b4b535afa21f1000cb">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/classes-9437c39bb53de512cf1e7fa3ebd93fa890d0638e.jar" />
     </item>
     <item
         jar="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/libs/x86.jar"
@@ -35,6 +140,41 @@
         revision="21.1.1"
         sha1="507be3e66b3bfcb95d68e5f18f224d17a00a3ce3">
         <dex dex="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/pre-dexed/debug/classes-267383327a08edcfae00496570829db53595cf77.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-52691e2eeb64ae0004745c66ffd18a928ba1880c.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/.gradle/caches/modules-2/files-2.1/com.squareup/otto/1.3.6/ee373b6d0d6ea36a0a9b0cbabaf16be7e7fc3e30/otto-1.3.6.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ee373b6d0d6ea36a0a9b0cbabaf16be7e7fc3e30">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/otto-1.3.6-e153530e0545bf51ee36599e39303a4615281647.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/exploded-aar/TabNoMore/PdCore/unspecified/libs/armeabi-v7a.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="87eb130fdab5aea8577208728f85925f8a89dffe">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/armeabi-v7a-da6a43fe5fe64dee254ebba9667c62999d018b7d.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/exploded-aar/FuckTab/PdCore/unspecified/libs/armeabi.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1d98cd21207560b91394f96d940957412497e860">
+        <dex dex="/Users/hvo/Documents/Mine/FuckTab/Fret/build/intermediates/pre-dexed/debug/armeabi-ca69bdee6d32565c629f0221a8db0e21de2bb7a6.jar" />
+    </item>
+    <item
+        jar="/Users/hvo/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger-compiler/1.2.2/fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57/dagger-compiler-1.2.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57">
+        <dex dex="/Users/hvo/Documents/Mine/TabNoMore/Fret/build/intermediates/pre-dexed/debug/dagger-compiler-1.2.2-7423ff4fad862ad3aefc4f59f919b8800b34212c.jar" />
     </item>
 
 </items>
